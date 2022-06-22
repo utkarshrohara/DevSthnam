@@ -1,0 +1,71 @@
+/* style jumbotron  */
+/* .jumbotron{
+    background-image: url(/images/badrinath-dham.jpg);
+    background-size: cover;
+    height: 770px;
+    text-align: center;
+    margin-top: 0;
+}
+.warna{
+    color: #333;
+}
+.jumbotron .display-4{
+    color: #333;
+    margin-top: 50px;
+}
+.jumbotron p{
+    color: #333;
+    font-size: 25px;
+} */
+
+/* Nav-bar */
+.navbar-brand{
+	font-weight: 700;
+    font-size: 30px;
+}
+.navbar-nav{
+    font-weight: 500;
+
+}
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: red;
+    /* font-size: 10px; */
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: red;
+}
+/*style slider*/
+.carousel-item{
+    height: 700px;
+}
+.carousel-item .display-4{
+    /* margin-top: 450px; */
+}
+p{
+	font-size: 10px;
+	color: rebeccapurple;
+	
+}
+.display-4{
+	font-size: 30px;
+    color: red;
+}
+.carousel-item hr{
+    border-color: #ffffff;
+    width: 70px;
+    border-width: 3px;
+}
+.carousel-item .btn{
+    background-color: #ffffff;
+    background: none;
+    border: 1px solid;
+    border-radius: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 40px; 
+}
+.carousel-caption .btn:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #fff;
+}

@@ -1,0 +1,104 @@
+/* Breadcrumb */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: white;
+    margin-bottom: 0;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: orange;
+    /* text-decoration: underline; */
+  }
+
+  /* Yamunotri head */
+  .yamunotri p {
+    /* margin: 1rem 0.2rem 2.5rem; */
+    padding: 0.3rem 0;
+    text-align: left;
+    color: black;
+}
+.yamunotri h2{
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #036;
+    margin: 1.5rem 0.8rem;
+  }
+
+  /* Yamunotri Cards */
+ 
+  #Y_CARD h3{
+    /* color: red; */
+    font-weight: bolder;
+  }
+  /* #Y_CARD p{
+    color: red;
+    font-weight: bold;
+  } */
+  #Y_CARD .col-lg-3{
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  #Y_CARD .card-img-overlay{
+    padding-top: 8rem;
+  }
+
+ /* map */
+ .map{
+   text-align: center;
+ }
+ .n_footer{
+   margin-top: 1rem;
+ }
+ .map h2{
+  text-align: center;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #036;
+  margin: 1.5rem 0.8rem;
+}
+
+
+
+  /* Media Queries */
+  @media screen and (max-width: 480px){
+    #Y_CARD .card-img-overlay{
+      padding-top: 4.5rem;
+    }
+  }
+
+  @media screen and (min-width: 992px){
+    #Y_CARD .card-img-overlay{
+      padding-top: 4.5rem;
+    }
+  }
+
+  @media screen and (min-width: 1200px){
+    #Y_CARD .card-img-overlay{
+      padding-top: 8.5rem;
+    }
+  }
